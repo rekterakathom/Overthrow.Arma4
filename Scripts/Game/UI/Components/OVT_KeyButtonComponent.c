@@ -1,5 +1,6 @@
 class OVT_KeyButtonComponent : SCR_ButtonComponent
 {
+	/*
 	protected string m_sData;
 	
 	void SetData(string data)
@@ -7,8 +8,9 @@ class OVT_KeyButtonComponent : SCR_ButtonComponent
 		m_sData = data;
 	}
 	
-	string GetData()
+	override string GetData()
 	{
 		return m_sData;
 	}
+	*/
 }

@@ -4,7 +4,7 @@ modded class SCR_CharacterDamageManagerComponent : ScriptedDamageManagerComponen
 	protected bool m_bIsOccupyingFaction = false;
 	protected IEntity m_eLastInstigator;
 	
-	override void OnInit(IEntity owner)
+	void OnInit(IEntity owner)
 	{
 		SCR_BaseGameMode baseGameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
 		if (baseGameMode)
